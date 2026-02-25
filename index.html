@@ -7,25 +7,32 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="card principal-card">
-      <p class="title urbancho">Urbancho</p>
-      <p class="slogan"><em>Beyond Fashion</em></p>
-      <div class="button">Reserve Now</div>
+    <div class="flex-container">
+      <div class="card primary-card flex-container">
+        <h1 class="title" id="urbancho">Urbancho</h1>
+        <div class="flex-container">
+          <p id="slogan">Beyond Fashion</p>
+          <div id="button">Reserve Now</div>
+        </div>
+      </div>
+      <div class="card about-card flex-container">
+        <h2 class="title" id="about">About Us</h2>
+        <p class="description">
+          I wonderful barbershop that give to you a pretty service and also... a
+          beautiful haircut
+        </p>
+        <p class="description">
+          E-mail: <a href="">samuel.berrioc@upb.edu.co</a>
+        </p>
+      </div>
     </div>
-    <div class="card about-card">
-      <p class="title about">About Us</p>
-      <p class="description">
-        I wonderful barbershop that give to you a pretty service and also... a
-        beautiful haircut
-      </p>
-      <p class="description">
-        E-mail: <a href="">samuel.berrioc@upb.edu.co</a>
-      </p>
-    </div>
-    <div class="card services-card">
-      <div class="services">Bassic Haircut</div>
-      <div class="services">Beard</div>
-      <div class="services">Haircut + Beard</div>
+    <div class="services-card card flex-container">
+      <div class="services-container flex-container">
+        <div class="card" id="haircut">Bassic Haircut</div>
+        <div class="card" id="beard">Beard</div>
+        <div class="card" id="haircut_and_beard">Haircut + Beard</div>
+      </div>
+      <div id="line"></div>
     </div>
   </body>
 </html>

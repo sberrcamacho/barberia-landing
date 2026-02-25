@@ -1,8 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
 * {
   margin: 0;
+}
+
+body {
+  color: white;
+  font-family: "Merryweather", sans-serif;
+  padding: 26px;
+
+  background-image: url(../img/background.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  gap: 80px;
 }
 
 a {
@@ -11,73 +25,98 @@ a {
 
 .card {
   border-radius: 12px;
-  margin: 20px;
-}
-
-.principal-card {
-  font-family: "Playfair Display";
-  background-color: midnightblue;
-
-  padding: 10px;
-}
-
-.about-card {
-  background-color: black;
-  padding: 20px 32px;
-}
-
-.services-card {
-  background-color: darkred;
-  padding: 10px;
 }
 
 .title {
   color: #d89d5d;
+  font-family: "Playfair Display";
   font-variant: small-caps;
-  font-weight: 600;
 }
 
-.urbancho {
-  font-size: 64px;
+.flex-container {
+  display: flex;
 }
 
-.slogan {
-  font-weight: 500;
+.primary-card {
+  flex-direction: column;
+  gap: 14px;
+  background-color: #00010ecc;
+  padding: 50px 50px;
+  margin-right: 5%;
+  flex: 3;
+}
+
+#urbancho {
+  font-size: 96px;
+  font-weight: bolder;
+}
+
+#slogan {
+  font-family: "Playfair Display";
+  font-style: italic;
   font-size: 20px;
-  color: white;
 }
 
-.button {
-  display: inline-block;
-  padding: 10px 15px;
-
-  font-family: "Merriweather";
-  font-size: 16px;
-
+#button {
   background-color: lightgray;
+  color: black;
   border-radius: 40px;
+  padding: 10px 15px;
+  margin-left: auto;
 }
 
-.about {
-  font-size: 20px;
+.about-card {
+  flex-direction: column;
+  background-color: #000000cc;
+  padding: 30px 40px;
+  margin-left: auto;
+  flex: 2;
+}
+
+#about {
+  font-size: 32px;
 }
 
 .description {
-  font-family: "Open Sans";
-  font-size: 12px;
-  font-weight: 600;
-  color: white;
+  margin-top: auto;
 }
 
-.services {
-  font-weight: bold;
-  font-family: "Merriweather";
-  font-size: 36px;
-  color: white;
+.services-card {
+  flex-direction: column;
+  background-color: #120000cc;
+  padding: 50px 100px;
+  gap: 30px;
+}
 
-  background-color: lightgray;
+.services-container {
+  justify-content: space-evenly;
+  gap: 100px;
+}
 
-  margin: 10px;
-  padding: 10px;
-  border-radius: 12px;
+.services-container div {
+  flex: 1;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 100px 120px;
+
+  text-align: center;
+  background-size: cover;
+}
+
+#haircut {
+  background-image: url(../img/haircut.jpg);
+}
+
+#beard {
+  background-image: url(../img/beard.jpg);
+}
+
+#haircut_and_beard {
+  background-image: url(../img/haircut_and_beard.png);
+  background-position: center 70%;
+}
+
+#line {
+  border: 1px solid white;
+  opacity: 0.3;
 }
