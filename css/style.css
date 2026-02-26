@@ -7,116 +7,64 @@ body {
   font-family: "Merryweather", sans-serif;
   padding: 26px;
 
-  background-image: url(../img/background.jpg);
-
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: black;
 
   display: flex;
   justify-content: center;
 
   flex-direction: column;
-  gap: 80px;
 }
 
 a {
   color: white;
 }
 
-.card {
-  border-radius: 12px;
+.title {
+  font-family: "Playfair Display";
+  font-weight: bolder;
 }
 
-.title {
-  color: #d89d5d;
-  font-family: "Playfair Display";
-  font-variant: small-caps;
+.line {
+  border: 1px solid white;
+  flex: 1;
+  height: fit-content;
+}
+
+.em {
+  font-style: italic;
 }
 
 .flex-container {
   display: flex;
-}
-
-.primary-card {
-  flex-direction: column;
-  gap: 14px;
-  background-color: #00010ecc;
-  padding: 50px 50px;
-  margin-right: 5%;
-  flex: 3;
-}
-
-#urbancho {
-  font-size: 96px;
-  font-weight: bolder;
+  gap: 60px;
 }
 
 #slogan {
-  font-family: "Playfair Display";
-  font-style: italic;
-  font-size: 20px;
+  align-items: center;
 }
 
-#button {
-  background-color: lightgray;
-  color: black;
-  border-radius: 40px;
-  padding: 10px 15px;
-  margin-left: auto;
-}
-
-.about-card {
+.column {
   flex-direction: column;
-  background-color: #000000cc;
-  padding: 30px 40px;
-  margin-left: auto;
-  flex: 2;
 }
 
-#about {
+#logo {
+  width: 800px;
+  height: auto;
+  align-self: center;
+}
+
+.button {
+  background-color: #2a2a2a66;
+  border-radius: 40px;
+  padding: 20px 40px;
+  width: fit-content;
+  align-self: center;
+}
+
+.bigger {
   font-size: 32px;
 }
 
-.description {
-  margin-top: auto;
-}
-
-.services-card {
-  flex-direction: column;
-  background-color: #120000cc;
-  padding: 50px 100px;
-  gap: 30px;
-}
-
-.services-container {
-  justify-content: space-evenly;
-  gap: 100px;
-}
-
-.services-container div {
-  flex: 1;
-  font-weight: bolder;
-  font-size: 40px;
-  padding: 100px 120px;
-
-  text-align: center;
-  background-size: cover;
-}
-
-#haircut {
-  background-image: url(../img/haircut.jpg);
-}
-
-#beard {
-  background-image: url(../img/beard.jpg);
-}
-
-#haircut_and_beard {
-  background-image: url(../img/haircut_and_beard.png);
-  background-position: center 70%;
-}
-
-#line {
-  border: 1px solid white;
-  opacity: 0.3;
+.medium {
+  font-size: 24px;
 }
