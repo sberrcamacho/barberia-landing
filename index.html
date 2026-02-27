@@ -4,17 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mainpage | Urbancho - Barbershop</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="flex-container column">
-      <div class="flex-container" id="slogan">
-        <div class="line"></div>
-        <p class="em title medium">Beyond Fashion</p>
-        <div class="line"></div>
+
+  <body class="py-20 bg-black flex flex-col gap-s text-white">
+    <div class="flex flex-col gap-m">
+      <div class="flex gap-m items-center">
+        <div class="border flex-1 ml-26"></div>
+        <p class="italic text-m text-bolder">Beyond Fashion</p>
+        <div class="border flex-1 mr-26"></div>
       </div>
-      <img id="logo" src="./img/logo.png" alt="logotype of urbancho" />
-      <div class="button title em medium">Book Now</div>
+
+      <img
+        class="w-800 h-auto self-center"
+        id="logo"
+        src="./img/logo.png"
+        alt="logotype of urbancho"
+      />
+
+      <div
+        class="bg-dark-40 rounded-l self-center py-20 px-40 text-bolder italic text-l mb-200"
+      >
+        <a href="./pages/book.html">Book Now</a>
+      </div>
+    </div>
+
+    <div class="ml-26 mr-26 border"></div>
+
+    <div class="flex flex-col bg-red-10 rounded-m py-40 gap-xl">
+      <h1 class="text-xxl self-center text-beige">Our Services</h1>
+
+      <div class="flex justify-end">
+        <img
+          class="w-500 h-300 object-cover rounded-r-12 mr-auto object-50-40"
+          src="./img/haircut.jpg"
+          alt="One men with a haircut in a gray background"
+        />
+        <div class="flex flex-col gap-s mr-26 h-fit w-800 self-center">
+          <h2 class="text-xl text-bolder text-beige text-right">
+            Bassic Haircut
+          </h2>
+          <p class="text-neutral text-l text-right">
+            A well-executed basic haircut enhances facial features, frames
+            expressions, and communicates self-respect. It is subtle but
+            powerful. People may not immediately notice what changed — but they
+            will notice that you look sharper, more put together, more
+            confident.
+          </p>
+        </div>
+        <div class="border text-light-gray mr-26"></div>
+      </div>
+
+      <div class="flex">
+        <div class="border text-light-gray ml-26"></div>
+        <div class="flex flex-col gap-s ml-26 h-fit w-800 self-center">
+          <h2 class="text-xl text-bolder text-beige">Beard</h2>
+          <p class="text-neutral text-l">
+            Every beard grows differently. Density, direction, growth patterns,
+            and facial structure all influence the final result. A professional
+            beard service begins with careful evaluation: defining natural
+            lines, identifying imbalance, and determining the shape that best
+            complements your jawline and cheekbones.
+          </p>
+        </div>
+        <img
+          class="w-500 h-300 object-cover rounded-l-12 ml-auto"
+          src="./img/beard.jpg"
+          alt="One men with a haircut in a gray background"
+        />
+      </div>
+
+      <div class="flex justify-end">
+        <img
+          class="w-500 h-300 object-cover rounded-r-12 mr-auto object-50-70"
+          src="./img/haircut_and_beard.png"
+          alt="One men with a haircut in a gray background"
+        />
+        <div class="flex flex-col gap-s mr-26 h-fit w-800 self-center">
+          <h2 class="text-xl text-bolder text-beige text-right">
+            Haircut + Beard
+          </h2>
+          <p class="text-neutral text-l text-right">
+            The process begins with assessing your head shape, hair texture,
+            beard density, and facial proportions. The haircut restores clean
+            lines, balanced volume, and controlled movement. The beard is then
+            sculpted to complement that structure — adjusting length, defining
+            contours, refining cheek and neckline boundaries, and ensuring
+            symmetry with the haircut.
+          </p>
+        </div>
+        <div class="border text-light-gray mr-26"></div>
+      </div>
+    </div>
+
+    <div class="ml-26 mr-26 border mb-200"></div>
+
+    <div class="flex flex-col items-center gap-s">
+      <h1 class="text-xxl text-gold text-bolder italic">About Us</h1>
+      <p class="text-center text-neutral text-l text-bold mx-30 mb-60">
+        At Urbancho, we believe grooming is a discipline — not a routine. Our
+        barbershop was built on precision, consistency, and respect for the
+        craft. Every service is executed with intention. Every detail is
+        considered. From clean hairlines to perfectly structured beards, our
+        focus is always on balance, proportion, and refinement.
+      </p>
+      <div class="flex justify-evenly w-full mb-200">
+        <div class="flex flex-col gap-xs items-center">
+          <p class="text-neutral text-xl text-bold italic">5+</p>
+          <p class="text-neutral text-l text-bold italic">Years</p>
+        </div>
+
+        <div class="flex flex-col gap-xs items-center">
+          <p class="text-neutral text-xl text-bold italic">40+</p>
+          <p class="text-neutral text-l text-bold italic">Haircut Styles</p>
+        </div>
+
+        <div class="flex flex-col gap-xs items-center">
+          <p class="text-neutral text-xl text-bold italic">4.8★</p>
+          <p class="text-neutral text-l text-bold italic">Rating</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ml-26 mr-26 border mb-60"></div>
+
+    <div class="flex flex-col gap-l">
+      <div
+        class="bg-dark-40 rounded-s self-center py-20 px-40 text-bolder italic text-l"
+      >
+        <a href="./pages/book.html">What are you waiting for? Book Now!</a>
+      </div>
+      <div class="flex justify-between">
+        <div class="flex flex-col mx-30 gap-xs">
+          <h1 class="text-l italic text-beige text-bolder mb-30">
+            Important Information
+          </h1>
+          <p class="text-m text-bold">
+            E-main: <a href="">samuel.berrioc@upb.edu.co</a>
+          </p>
+          <p class="text-m text-bold">Address: Brooklyn, NY 11215</p>
+          <p class="text-m text-bold">Telephone: +1 (347) 555-8427</p>
+        </div>
+        <div class="flex flex-col gap-xs mx-30 text-right">
+          <h1 class="text-l italic text-beige text-bolder mb-30">
+            Business Hours
+          </h1>
+          <p class="text-m text-bold">Monday - Thursday: 11:00 AM - 8:00 PM</p>
+          <p class="text-m text-bold">Friday – Saturday: 10:00 AM – 9:00 PM</p>
+          <p class="text-m text-bold">Sunday: 11:00 AM – 4:00 PM</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

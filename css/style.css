@@ -1,70 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 * {
   margin: 0;
 }
 
+html,
 body {
-  color: white;
-  font-family: "Merryweather", sans-serif;
-  padding: 26px;
+  width: 100%;
+  height: 100%;
+}
 
-  background-color: black;
-
-  display: flex;
-  justify-content: center;
-
-  flex-direction: column;
+body {
+  font-family: "Merriweather";
 }
 
 a {
-  color: white;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s ease;
 }
 
-.title {
-  font-family: "Playfair Display";
-  font-weight: bolder;
+a:hover {
+  color: #c6a75e;
 }
 
-.line {
-  border: 1px solid white;
-  flex: 1;
-  height: fit-content;
+.text-gold {
+  color: #c6a75e;
 }
 
-.em {
-  font-style: italic;
+.text-beige {
+  color: #ead7b7;
 }
 
-.flex-container {
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.ml-26 {
+  margin-left: 26px;
+}
+
+.mr-26 {
+  margin-right: 26px;
+}
+
+.flex {
   display: flex;
+}
+
+.gap-s {
+  gap: 30px;
+}
+
+.gap-xs {
+  gap: 10px;
+}
+
+.gap-m {
   gap: 60px;
 }
 
-#slogan {
-  align-items: center;
+.mb-60 {
+  margin-bottom: 60px;
 }
 
 .column {
   flex-direction: column;
 }
 
-#logo {
+.w-800 {
   width: 800px;
+}
+
+.h-auto {
   height: auto;
-  align-self: center;
 }
 
-.button {
+.bg-dark-40 {
   background-color: #2a2a2a66;
-  border-radius: 40px;
-  padding: 20px 40px;
-  width: fit-content;
-  align-self: center;
 }
 
-.bigger {
+.bg-black {
+  background-color: black;
+}
+
+.rounded-l {
+  border-radius: 40px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+.text-s {
+  font-size: 16px;
+}
+
+.text-m {
+  font-size: 20px;
+}
+
+.text-l {
+  font-size: 24px;
+}
+
+.text-xl {
   font-size: 32px;
 }
 
-.medium {
-  font-size: 24px;
+.text-xxl {
+  font-size: 40px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-bolder {
+  font-weight: bolder;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-500 {
+  width: 500px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.flex-auto {
+  flex: auto;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.text-neutral {
+  color: #e9e2d7;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bg-red-10 {
+  background-color: #ff00001a;
+}
+
+.rounded-s {
+  border-radius: 12px;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.rounded-r-12 {
+  border-radius: 0 12px 12px 0;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.text-light-gray {
+  color: #d9d9d9;
+}
+
+.rounded-l-12 {
+  border-radius: 12px 0 0 12px;
+}
+
+.gap-l {
+  gap: 90px;
+}
+
+.gap-xl {
+  gap: 120px;
+}
+
+.object-50-70 {
+  object-position: 50% 70%;
+}
+
+.object-50-40 {
+  object-position: 50% 40%;
+}
+
+.mx-30 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.mb-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
